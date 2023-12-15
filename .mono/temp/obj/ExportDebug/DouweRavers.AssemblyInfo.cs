@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DouweRavers")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("ExportDebug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5a9a63fc88ac775864f8d5f0292f23b0cad207ab")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cbc1ee1722b24833c21a9181ac0171ae6c57ea39")]
 [assembly: System.Reflection.AssemblyProductAttribute("DouweRavers")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DouweRavers")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
