@@ -1,76 +1,16 @@
-[gd_scene load_steps=11 format=3 uid="uid://dlr8y6wqhnp85"]
+[gd_scene format=2]
 
-[ext_resource type="Script" path="res://main.gd" id="1_wddmm"]
+[node name="Control" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
 
-[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_dwrea"]
-sky_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
-ground_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
-
-[sub_resource type="Sky" id="Sky_bume5"]
-sky_material = SubResource("ProceduralSkyMaterial_dwrea")
-
-[sub_resource type="Environment" id="Environment_oga15"]
-background_mode = 2
-sky = SubResource("Sky_bume5")
-tonemap_mode = 2
-glow_enabled = true
-
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_0cana"]
-albedo_color = Color(0.00784314, 0.458824, 0, 1)
-
-[sub_resource type="PlaneMesh" id="PlaneMesh_clxjr"]
-material = SubResource("StandardMaterial3D_0cana")
-size = Vector2(5, 5)
-
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_phsc7"]
-albedo_color = Color(0.631373, 0.439216, 0, 1)
-
-[sub_resource type="CylinderMesh" id="CylinderMesh_fumxf"]
-material = SubResource("StandardMaterial3D_phsc7")
-top_radius = 0.25
-bottom_radius = 0.25
-height = 4.0
-
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_jbdim"]
-albedo_color = Color(0.129412, 0.458824, 0.25098, 1)
-
-[sub_resource type="CapsuleMesh" id="CapsuleMesh_xnsg4"]
-material = SubResource("StandardMaterial3D_jbdim")
-radius = 0.75
-height = 4.0
-
-[node name="Node3D" type="Node3D"]
-script = ExtResource("1_wddmm")
-
-[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
-transform = Transform3D(-0.866023, -0.433016, 0.250001, 0, 0.499998, 0.866027, -0.500003, 0.749999, -0.43301, 0, 0, 0)
-shadow_enabled = true
-
-[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
-environment = SubResource("Environment_oga15")
-
-[node name="XROrigin3D" type="XROrigin3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.93537, 0)
-
-[node name="XRCamera3D" type="XRCamera3D" parent="XROrigin3D"]
-
-[node name="CanvasLayer" type="CanvasLayer" parent="."]
-
-[node name="Button" type="Button" parent="CanvasLayer"]
-offset_left = 87.0
-offset_top = 103.0
-offset_right = 166.0
-offset_bottom = 134.0
-text = "Enter VR
-"
-
-[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
-mesh = SubResource("PlaneMesh_clxjr")
-
-[node name="MeshInstance3D" type="MeshInstance3D" parent="MeshInstance3D"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.00627, 1.74309, -2.11751)
-mesh = SubResource("CylinderMesh_fumxf")
-
-[node name="MeshInstance3D" type="MeshInstance3D" parent="MeshInstance3D/MeshInstance3D"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2, 0)
-mesh = SubResource("CapsuleMesh_xnsg4")
+[node name="Label" type="Label" parent="."]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -20.0
+margin_top = -7.0
+margin_right = 20.0
+margin_bottom = 7.0
+text = "Hello!"
