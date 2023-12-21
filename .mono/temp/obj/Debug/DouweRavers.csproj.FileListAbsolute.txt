@@ -5,6 +5,5 @@ C:\Users\douwe\Projects\douweravers.be\.mono\temp\obj\Debug\DouweRavers.Generate
 C:\Users\douwe\Projects\douweravers.be\.mono\temp\obj\Debug\DouweRavers.AssemblyInfoInputs.cache
 C:\Users\douwe\Projects\douweravers.be\.mono\temp\obj\Debug\DouweRavers.AssemblyInfo.cs
 C:\Users\douwe\Projects\douweravers.be\.mono\temp\obj\Debug\DouweRavers.csproj.CoreCompileInputs.cache
-C:\Users\douwe\Projects\douweravers.be\.mono\temp\obj\Debug\DouweRavers.sourcelink.json
 C:\Users\douwe\Projects\douweravers.be\.mono\temp\obj\Debug\DouweRavers.dll
 C:\Users\douwe\Projects\douweravers.be\.mono\temp\obj\Debug\DouweRavers.pdb

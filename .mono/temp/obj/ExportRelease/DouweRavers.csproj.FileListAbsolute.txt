@@ -1,0 +1,9 @@
+C:\Users\douwe\Projects\douweravers.be\.mono\temp\bin\ExportRelease\DouweRavers.dll
+C:\Users\douwe\Projects\douweravers.be\.mono\temp\bin\ExportRelease\DouweRavers.pdb
+C:\Users\douwe\Projects\douweravers.be\.mono\temp\obj\ExportRelease\DouweRavers.csproj.AssemblyReference.cache
+C:\Users\douwe\Projects\douweravers.be\.mono\temp\obj\ExportRelease\DouweRavers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\douwe\Projects\douweravers.be\.mono\temp\obj\ExportRelease\DouweRavers.AssemblyInfoInputs.cache
+C:\Users\douwe\Projects\douweravers.be\.mono\temp\obj\ExportRelease\DouweRavers.AssemblyInfo.cs
+C:\Users\douwe\Projects\douweravers.be\.mono\temp\obj\ExportRelease\DouweRavers.csproj.CoreCompileInputs.cache
+C:\Users\douwe\Projects\douweravers.be\.mono\temp\obj\ExportRelease\DouweRavers.dll
+C:\Users\douwe\Projects\douweravers.be\.mono\temp\obj\ExportRelease\DouweRavers.pdb
